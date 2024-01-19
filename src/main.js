@@ -1,7 +1,14 @@
-import React from "react";
+import Header from "./components/header/Header";
+import Section from "./components/section/Section";
+function Main() {
+  return (
+    <div>
+      <div className="box">
+        <Header />
+        <Section />
+      </div>
+    </div>
+  );
+}
 
-const main = () => {
-  return <div></div>;
-};
-
-export default main;
+export default Main;
