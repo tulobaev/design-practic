@@ -5,7 +5,7 @@ import image2 from "../../images/app-screen-1 2 (2).png";
 
 const Hero = () => {
   return (
-    <section className="container-section">
+    <div className="container-section">
       <div>
         <p className="HOW">HOW IT WORKS</p>
         <h1 className="Your">Your daily dose of health in 3 simple steps</h1>
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

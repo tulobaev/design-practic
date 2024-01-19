@@ -8,7 +8,7 @@ import checkmark from "../../images/checkmark1 (1).png";
 
 const Dose = () => {
   return (
-    <section className="container-section">
+    <div className="container-section">
       <div className="text-center">
         <span className="MEALS">MEALS</span>
         <h1 className="Omnifood">Omnifood AI chooses from 5,000+ recipes</h1>
@@ -114,7 +114,7 @@ const Dose = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
