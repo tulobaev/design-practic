@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Arvo&family=Bree+Serif&family=Crete+Round&family=Inclusive+Sans&family=Josefin+Sans:wght@100&family=Manrope&family=Montserrat&family=Nunito:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400&family=Roboto:wght@300&family=Rubik&family=Syne&family=Volkhov&family=Yesteryear&display=swap");
+
+.header-container {
+  padding: 43px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container h1 {
+  color: #000;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 500;
+}
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+}
+.menu a:hover {
+  color: #e67e22;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.menu button {
+  width: 139px;
+  height: 44px;
+  border-radius: 8px;
+  background: #e67e22;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+/* ///////////SECTION///////////////// */
+.container {
+  display: flex;
+  gap: 193px;
+  margin-top: 91px;
+  margin-left: 70px;
+}
+.data h1 {
+  color: #333;
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 700;
+  width: 550px;
+}
+.data p {
+  margin-top: 32px;
+  color: #555;
+  width: 558px;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.btnStart {
+  margin-top: 48px;
+  width: 183px;
+  height: 44px;
+  border-radius: 8px;
+  background: #e67e22;
+  color: #fff;
+  cursor: pointer;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+}
+.btnLearn {
+  margin-top: 48px;
+  width: 142px;
+  height: 44px;
+  border-radius: 8px;
+  background: #e67e22;
+  color: #555;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-left: 16px;
+}
+.containerPng {
+  display: flex;
+  align-items: center;
+}
+.pngContainer {
+  margin-top: 64px;
+}
+.png1 {
+  position: relative;
+  left: -17px;
+}
+.png2 {
+  position: relative;
+  left: -34px;
+}
+.png3 {
+  position: relative;
+  left: -53px;
+}
+.png4 {
+  position: relative;
+  left: -73px;
+}
+.png5 {
+  position: relative;
+  left: -93px;
+}
+.spanText {
+  margin-top: 55px;
+  margin-left: -75px;
+}
+.text {
+  color: #e67e22;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+}
+.text2 {
+  color: #555;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+}
+.imageFood1 {
+  position: relative;
+  right: 190px;
+  top: 90px;
+}
+.imageFood2 {
+  position: relative;
+  z-index: 1;
+  right: 150px;
+  bottom: 60px;
+}
+.compani {
+  display: flex;
+  gap: 49px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.as {
+  color: #888;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
