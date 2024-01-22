@@ -3,7 +3,7 @@ import "./Footer.css";
 import footerimg from "../../images/omnifood-logo 2.png"
 const Footer = () => {
   return (
-    <div>
+    <div className="glovalfooter">
       <footer className="footer-container">
         <div className="footers-img">
           <img src={footerimg} alt="logo" />

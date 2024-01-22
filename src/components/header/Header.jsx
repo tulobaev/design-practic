@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import Buttonclick from "../../button";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         <a href="">Meals</a>
         <a href="">Testimonials</a>
         <a href="">Pricing</a>
-        <button>Try for free</button>
+        <Buttonclick label="Try for free" />
       </div>
     </div>
   );

@@ -16,6 +16,7 @@ import insider from "../../images/business-insider 1.png";
 import newYork from "../../images/the-new-york-times 1.png";
 import forbes from "../../images/forbes 1.png";
 import usa from "../../images/usa-today 1.png";
+import Buttonclick from "../../button";
 const Section = () => {
   return (
     <div>
@@ -24,7 +25,7 @@ const Section = () => {
           <h1>{healthlyFood}</h1>
           <p>{data}</p>
           <div>
-            <button className="btnStart">Start eating well</button>
+            <Buttonclick label="Start eating well"/>
             <button className="btnLearn">Learn more</button>
           </div>
           <div className="containerPng">

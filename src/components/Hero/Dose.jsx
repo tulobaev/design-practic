@@ -5,6 +5,7 @@ import image5 from "../../images/flame (2).png";
 import image6 from "../../images/restaurant (1).png";
 import image7 from "../../images/Frame 7 (1).png";
 import checkmark from "../../images/checkmark1 (1).png";
+import Buttonclick from "../../button";
 
 const Dose = () => {
   return (
@@ -18,7 +19,7 @@ const Dose = () => {
         <div className="bag-white-div">
           <img src={image3} alt="" />
           <div className="btn-left-div">
-            <button className="VEGETARIAN">VEGETARIAN</button>
+            <Buttonclick label="VEGETARIAN"/>
             <h3 className="Japanese">Japanese Gyozas</h3>
           </div>
           <div className="content-p-center">
